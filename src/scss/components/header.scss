@@ -1,0 +1,10 @@
+.header {
+  background: linear-gradient(90deg, #ff5b20 48.04%, #ff8c26 102.19%);
+  min-height: 50px;
+}
+
+@media (max-width: 900px) {
+  .header {
+    min-height: 60px;
+  }
+}

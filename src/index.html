@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    @@include('./components/header.html')
+
+    <main>
+      <div class="container">
+        <div class="main__topline">
+          <a href="#" class="backlink">Terug</a>
+        </div>
+      </div>
+
+      <section class="image">
+        <div class="container">
+          <div class="image__wrap">
+            <div class="image__tag">Nieuw</div>
+            <picture class="">
+              <source srcset="./images/main.webp" type="image/webp" />
+              <img src="./images/main.jpg" alt="" />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="info">
+        <div class="container">
+          <div class="info__wrap">
+            <div class="info-left">
+              <h1 class="info__title">Slapen tussen de Apen in de Apenheul</h1>
+              <p class="info__text">
+                Deze week kun je gratis meedoen voor Slapen tussen de Apen in de
+                Apenheul. Twee dagen waarin je beleeft, slaapt en dineert tussen
+                de apen.
+              </p>
+
+              <div class="info-left__images">
+                <div class="info-left__image">
+                  <picture class="">
+                    <source srcset="./images/info-1.webp" type="image/webp" />
+                    <img src="./images/info-1.png" alt="" />
+                  </picture>
+                </div>
+                <div class="info-left__image">
+                  <picture class="">
+                    <source srcset="./images/info-2.webp" type="image/webp" />
+                    <img src="./images/info-2.png" alt="" />
+                  </picture>
+                </div>
+
+                <div class="info-left__image">
+                  <picture class="">
+                    <source srcset="./images/info-3.webp" type="image/webp" />
+                    <img src="./images/info-3.png" alt="" />
+                  </picture>
+                </div>
+              </div>
+
+              <div class="info-persons">
+                <svg
+                  width="16"
+                  height="14"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="7.5126" cy="3.5" r="3" stroke="#002861" />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0.012603 13.5858L0.012604 14L0.515669 14L14.0198 14H15.0243C15.0102 13.9209 15.0156 13.7321 15.0211 13.5369C15.0222 13.4964 15.0233 13.4557 15.0243 13.4156C15.0272 13.297 15.0287 13.1842 15.0243 13.1008C15.0221 13.0586 15.0184 13.024 15.0126 13C14.1132 9.27063 11.5182 7 7.51261 7C3.50707 7 0.912006 9.27063 0.0126014 13C-0.0084203 13.0872 0.00117556 13.3147 0.0104532 13.5346C0.0111766 13.5518 0.0118981 13.5689 0.012603 13.5858ZM1.04428 13C1.46667 11.4188 2.219 10.2046 3.23155 9.37503C4.28922 8.50851 5.70568 8 7.51261 8C9.31955 8 10.736 8.50851 11.7937 9.37503C12.8062 10.2046 13.5585 11.4188 13.9809 13H1.04428Z"
+                    fill="#002861"
+                  />
+                </svg>
+                <p>2 personen</p>
+              </div>
+            </div>
+
+            <div class="info-right">
+              <h2 class="info-right__title">Wat houdt de prijs in?</h2>
+              <ul>
+                <li>
+                  Unieke overnachting in een Luxe 2 persoons Lodge op het park
+                  van de Apenheul
+                </li>
+                <li>Tweed aran toegang tot de Apenhul</li>
+                <li>Exclusive rondleiding door het park мэтт deenhost</li>
+                <li>Inclusief diner en ontbijt bij Lodge of Oranges Nest</li>
+              </ul>
+            </div>
+
+            <a href="#" class="btn btn-main">Gratis aanmelden</a>
+            <div class="info__wrap_border"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    @@include('./components/footer.html')
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>

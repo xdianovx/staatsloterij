@@ -1,0 +1,29 @@
+.btn {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-main {
+  transition: box-shadow 0.3s ease, background 0.1s ease;
+  color: $white;
+  background: linear-gradient(90deg, #ff5b20 37.84%, #ff8a26 100%);
+  font-family: 'Museo', sans-serif;
+  padding: 16px 87px 14px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  text-align: center;
+  font-weight: 500;
+  border-bottom: 2px solid #d24619;
+  &:hover {
+    background: linear-gradient(90deg, #ff8a26 37.84%, #ff5b20 100%);
+  }
+}
+
+@media (max-width: 550px) {
+  .btn-main {
+    padding: 16px 20px;
+  }
+}
